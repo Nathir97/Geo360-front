@@ -1,0 +1,20 @@
+<!-- Sidebar panel -->
+<div style="position: absolute; z-index: 10; background: white; padding: 10px; width: 300px;">
+    <h3>📊 Task Statistics</h3>
+    <p><strong>Total:</strong> {{ stats.total }}</p>
+    <p><strong>Pending:</strong> {{ stats.pending }}</p>
+    <p><strong>In Progress:</strong> {{ stats.inProgress }}</p>
+    <p><strong>Completed:</strong> {{ stats.completed }}</p>
+  
+    <hr />
+  
+    <h4>Filter by Status</h4>
+    <button (click)="filterStatus('All')">All</button>
+    <button (click)="filterStatus('Pending')">Pending</button>
+    <button (click)="filterStatus('In Progress')">In Progress</button>
+    <button (click)="filterStatus('Completed')">Completed</button>
+  </div>
+  
+  <!-- ArcGIS map container (linked in component.ts) -->
+  <div id="viewDiv" style="height: 100vh; width: 100vw;"></div>
+  

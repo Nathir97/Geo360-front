@@ -31,7 +31,7 @@
             "browser": "src/main.ts",
             "outputPath": "dist/demo",
             "polyfills": ["zone.js"],
-            "scripts": [],
+            "scripts": ["https://js.arcgis.com/4.29/"],
             "styles": ["src/global_styles.css"],
             "tsConfig": "tsconfig.app.json"
           }
