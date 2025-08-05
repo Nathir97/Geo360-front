@@ -1,0 +1,18 @@
+#mapDiv {
+    height: 500px;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+  }
+  
+  form {
+    border: 1px solid #ddd;
+    padding: 15px;
+    background: #f9f9f9;
+    max-width: 400px;
+  }
+  
+  button {
+    margin-right: 10px;
+  }
+  
